@@ -1,0 +1,22 @@
+---
+# https://vitepress.dev/zh/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "Archives for RonghaiHe's Notes"
+  text: "不忘初心"
+  tagline: The faintest ink is more powerful than the strongest memory 好记性不如烂笔头
+  actions:
+    - theme: brand
+      text: Thermal Fluid
+      link: /docs/Fluid/Thermal_Fluid/2externalFlow
+
+features:
+  - title: Fluids
+    details: 1. [Thermal Fluid](/docs/Fluid/Thermal_Fluid/2externalFlow)
+  - title: Mechanism
+    details: (Empty)
+  - title: Ocean Engineer
+    details: (Empty)
+---
+
