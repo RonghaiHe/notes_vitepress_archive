@@ -4,8 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // base 设置成你的github仓库名
   base: '/notes_vitepress_archive/',
-  title: "Notes of RonghaiHe",
-  description: "Notes shown in the website powered by VitePress & Github Actions+Pages",
+  title: "Archive of R. He' s Notes",
+  description: "Archives of notes shown in the website powered by VitePress & Github Actions+Pages",
   
   markdown: {
     math: true,
@@ -19,7 +19,8 @@ export default defineConfig({
     logo: {src: '/book.svg', width: 24, height: 24},
     nav: [
       { text: 'Home', link: 'https://ronghaihe.github.io' },
-      { text: 'Notes List', link: '/' },
+      { text: 'Notes', link: 'https://ronghaihe.github.io/notes_vitepress' },
+      { text: 'Archive', link: '/' },
       {
         text: 'Fluid',
         items: [
