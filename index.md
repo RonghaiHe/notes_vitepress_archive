@@ -16,7 +16,7 @@ features:
     details: 1. [Thermal Fluid](/docs/Fluid/Thermal_Fluid/2externalFlow)
   - title: Mechanism
     details: (Empty)
-  - title: Ocean Engineer
-    details: (Empty)
+  - title: Ocean Equipment
+    details: 1. [浮式结构](/docs/Equipment/浮式结构/浮式结构)
 ---
 

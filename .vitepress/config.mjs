@@ -38,6 +38,17 @@ export default defineConfig({
           }
         ]
       },
+      {
+        text: 'Ocean Equipment',
+        items: [
+          {
+            text: '浮式结构',
+            items: [
+              { text: '浮式结构', link: '/docs/Ocean_Equipment/浮式结构'},
+                    ]
+          }
+        ]
+      },
     ],
 
     sidebar: {
@@ -54,7 +65,18 @@ export default defineConfig({
               { text: 'Two Phase Flow: Heat Transfer', link: '/docs/Fluid/Thermal_Fluid/8twoPhaseHeatTransfer'},
               { text: 'Two Phase Flow: Practice', link: '/docs/Fluid/Thermal_Fluid/9practice'},
             ]
-        }
+        },
+        {
+          text: 'Ocean Equipment',
+          items: [
+            {
+              text: '浮式结构',
+              items: [
+                { text: '浮式结构', link: '/docs/Ocean_Equipment/浮式结构'},
+                      ]
+            }
+          ]
+        },
       ],
     },
 
