@@ -13,10 +13,10 @@ hero:
 
 features:
   - title: Fluids
-    details: 1. [Thermal Fluid](/docs/Fluid/Thermal_Fluid/2externalFlow)
+    details: 1. <a href="./docs/Fluid/Thermal_Fluid/2externalFlow">Thermal Fluid</a>
   - title: Mechanism
     details: (Empty)
   - title: Ocean Equipment
-    details: 1. [浮式结构](/docs/Equipment/浮式结构/浮式结构)
+    details: 1. <a href="./docs/Equipment/floating_structure/floating_structure">浮式结构</a>
 ---
 

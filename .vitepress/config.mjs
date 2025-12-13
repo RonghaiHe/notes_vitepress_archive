@@ -44,7 +44,7 @@ export default defineConfig({
           {
             text: '浮式结构',
             items: [
-              { text: '浮式结构', link: '/docs/Ocean_Equipment/浮式结构'},
+              { text: '浮式结构', link: '/docs/Equipment/floating_structure/floating_structure' },
                     ]
           }
         ]
@@ -66,13 +66,15 @@ export default defineConfig({
               { text: 'Two Phase Flow: Practice', link: '/docs/Fluid/Thermal_Fluid/9practice'},
             ]
         },
+      ],
+      '/docs/Equipment/floating_structure/': [
         {
-          text: 'Ocean Equipment',
+          text: 'Floating Structure',
           items: [
             {
               text: '浮式结构',
               items: [
-                { text: '浮式结构', link: '/docs/Ocean_Equipment/浮式结构'},
+                { text: '浮式结构', link: '/docs/Equipment/floating_structure/floating_structure'},
                       ]
             }
           ]
