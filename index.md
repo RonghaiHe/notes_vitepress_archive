@@ -15,7 +15,7 @@ features:
   - title: Fluids
     details: 1. <a href="./docs/Fluid/Thermal_Fluid/2externalFlow" style="text-decoration:none">Thermal Fluid</a><br/>2. Fluid Mechanics
   - title: Mechanism
-    details: (Empty)
+    details: 1. <a href="./docs/Mechanism/Sensors/semi-conductor/1intro" style="text-decoration:none">Sensors</a>
   - title: Ocean Equipment
     details: 1. <a href="./docs/Equipment/floating_structure/floating_structure" style="text-decoration:none">浮式结构</a>
 ---

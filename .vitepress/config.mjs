@@ -22,6 +22,17 @@ export default defineConfig({
       { text: 'Notes', link: 'https://ronghaihe.github.io/notes_vitepress' },
       { text: 'Archive', link: '/' },
       {
+        text: 'Mechanism',
+        items: [
+          {
+            text: 'Sensors',
+            items: [
+              { text: 'Intro', link: '/docs/Mechanism/Sensors/semi-conductor/1intro' },
+                    ]
+          }
+        ]
+      },
+      {
         text: 'Fluid',
         items: [
           {
@@ -53,6 +64,27 @@ export default defineConfig({
     ],
 
     sidebar: {
+      '/docs/Mechanism/Sensors/': [
+        {
+          text: 'Semi-Conductor',
+            items: [
+              { text: 'Intro', link: '/docs/Mechanism/Sensors/semi-conductor/1intro'},
+              { text: 'Micro&Nano', link: '/docs/Mechanism/Sensors/semi-conductor/2micro'},
+              { text: 'Sensing Principles', link: '/docs/Mechanism/Sensors/semi-conductor/3sensing_principles'},
+              { text: 'Electrostatic Sensors', link: '/docs/Mechanism/Sensors/semi-conductor/4electrostatic'},
+              { text: 'Surface Micromachining', link: '/docs/Mechanism/Sensors/semi-conductor/5surface_micromachining'},
+              { text: 'Bulk Micromachining', link: '/docs/Mechanism/Sensors/semi-conductor/6bulk_micromachining'},
+              { text: 'Dynamic Response', link: '/docs/Mechanism/Sensors/semi-conductor/8dynamic'},
+              { text: 'Mechanical Vibration', link: '/docs/Mechanism/Sensors/semi-conductor/9vibration'},
+            ]
+        },
+        {
+          text: 'Robotics',
+            items: [
+              { text: 'Intro', link: '/docs/Mechanism/Sensors/robotics/1intro'},
+            ]
+        }
+      ],
       '/docs/Fluid/Thermal_Fluid/': [
         {
           text: 'Thermal Fluid',
