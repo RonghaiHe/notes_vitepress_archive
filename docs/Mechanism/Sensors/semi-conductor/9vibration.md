@@ -27,7 +27,7 @@ Before diving into the mathematics, we must classify the motion based on the sys
 
 <figure>
    <img src="/Robotics/Sensors/semi9_determine.png" alt="determine" width="100%" align="center">
-   <figcaption> Figure 1: deterministic and random.</figcaption>
+   <div align="center"><figcaption> Figure 1: deterministic and random.</figcaption></div>
 </figure>
 
 Observe the difference in the force-time histories: the deterministic plot shows a clear, periodic pattern, whereas the random excitation plot shows irregular, fluctuating values where no specific magnitude can be predicted for a future time step.
@@ -68,7 +68,7 @@ The Damping Ratio ($\zeta$) is the ratio of the actual damping coefficient ($c$)
 
 <figure>
    <img src="/Robotics/Sensors/semi9_damped.png" alt="damped" width="100%" align="center">
-   <figcaption> Figure 2: Simple Harmonic Oscillator.</figcaption>
+   <div align="center"><figcaption> Figure 2: Simple Harmonic Oscillator.</figcaption></div>
 </figure>
 
 Observe the decay curves. A system with "one-tenth of critical" damping ($\zeta = 0.1$) exhibits many large oscillations. As \zeta increases to "one-half of critical" ($\zeta = 0.5$), the oscillations are suppressed much faster, demonstrating the efficiency of energy dissipation.
@@ -110,7 +110,7 @@ In the frequency domain, we analyze the Bandwidth, which is the range of frequen
 
 <figure>
    <img src="/Robotics/Sensors/semi9_zeta.JPG" alt="damped" width="100%" align="center">
-   <figcaption> Figure 3: Different zeta.</figcaption>
+   <div align="center"><figcaption> Figure 3: Different zeta.</figcaption></div>
 </figure>
 
 These plots illustrate resonance. As the frequency ratio $\omega/\omega_n$ approaches $1$, the magnitude peaks. Note that as $\zeta$ decreases, the peak magnitude becomes sharper and higher. Conversely, higher damping "flattens" the curve, reducing the peak response.
@@ -272,7 +272,7 @@ Assuming that $\zeta\neq 0$, consider the following 3 cases:
    The above equation describes a damped harmonic motion. Its amplitude decreases exponentially with time, as shown in the figure below.
    <figure>
      <img src="/Robotics/Sensors/semi9_undamped.png" alt="undamped" width="100%" align="center">
-     <figcaption> Figure 4: Undamped system.</figcaption>
+     <div align="center"><figcaption> Figure 4: Undamped system.</figcaption></div>
   </figure>
 
   The frequency of **damped vibration** is:
@@ -302,7 +302,7 @@ Assuming that $\zeta\neq 0$, consider the following 3 cases:
 
    <figure>
      <img src="/Robotics/Sensors/semi9_cri_damped.png" alt="critial damped" width="100%" align="center">
-     <figcaption> Figure 5: Critical damped system.</figcaption>
+     <div align="center"><figcaption> Figure 5: Critical damped system.</figcaption></div>
   </figure>
 
    It can be seen that the motion represented by the above equation is **aperiodic** (i.e., nonperiodic). Since $e^{-\omega_nt}\to 0$ as $t\to\infty$, the motion will eventually diminish to zero.

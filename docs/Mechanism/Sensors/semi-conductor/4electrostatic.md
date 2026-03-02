@@ -106,7 +106,7 @@ An electrostatic actuator is a competitive system between non-linear electrical 
 
 <figure>
    <img src="/Robotics/Sensors/semi5_mechanic.JPG" alt="Electromechanical Model" width="100%" align="center">
-   <figcaption> Figure 1: An Equivalent Electromechanical Model.</figcaption>
+   <div align="center"><figcaption> Figure 1: An Equivalent Electromechanical Model.</figcaption></div>
 </figure>
 
 Equilibrium and Hooke’s Law: The suspension acts as a spring with a mechanical spring constant $K_m$. Equilibrium is reached when: $|F_\text{elec}| = |F_\text{mech}| \implies -\frac{1}{2} \frac{\varepsilon A V^2}{d^2} = K_m |x|$
@@ -118,7 +118,7 @@ $$
 
 <figure>
    <img src="/Robotics/Sensors/semi5_curves.JPG" alt="Curves" width="100%" align="center">
-   <figcaption> Figure 2: Curves for force balance equation. This graph shows the intersection of the linear mechanical restoring force and the family of non-linear electrical force curves for V_1, V_2, V_3. As the voltage reaches the Pull-In Voltage (V_PI), the curves no longer intersect.</figcaption>
+   <div align="center"><figcaption> Figure 2: Curves for force balance equation. This graph shows the intersection of the linear mechanical restoring force and the family of non-linear electrical force curves for V_1, V_2, V_3. As the voltage reaches the Pull-In Voltage (V_PI), the curves no longer intersect.</figcaption></div>
 </figure>
 
 Design Implications: The "First Root" Rule The displacement can be found by solving the third-order equation: $K_m x (x_0 + x)^2 + \frac{1}{2} \varepsilon A V^2 = 0$ When solving this equation, three roots are generated. From a physical perspective, we accept only the first root (the smallest displacement). The other roots represent unstable equilibrium points beyond the pull-in threshold.
@@ -141,7 +141,7 @@ As the voltage bias increases from $0$ across a pair of parallel plates, the dis
 
 <figure>
    <img src="/Robotics/Sensors/semi5_threshold.JPG" alt="threshold point" width="100%" align="center">
-   <figcaption> Figure 3: A threshold point.</figcaption>
+   <div align="center"><figcaption> Figure 3: A threshold point.</figcaption></div>
 </figure>
 
 Mathematical Determination of Pull-in Voltage:
@@ -171,7 +171,7 @@ Calculate the amount of vertical displacement when a voltage of $0.4$ volts is a
 
 <figure>
    <img src="/Robotics/Sensors/semi5_example.JPG" alt="example" width="100%" align="center">
-   <figcaption> Figure 4: Example image.</figcaption>
+   <div align="center"><figcaption> Figure 4: Example image.</figcaption></div>
 </figure>
 
 1. Find mechanical force constants

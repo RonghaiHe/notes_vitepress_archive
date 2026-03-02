@@ -71,7 +71,7 @@ Why it Matters The equilibrium of these forces dictates the sensor’s responsiv
 
 <figure>
    <img src="/Robotics/Sensors/semi8_2nd.JPG" alt="2nd" width="100%" align="center">
-   <figcaption> Figure 1: mass-spring type accelerometer Flow.</figcaption>
+   <div align="center"><div align="center"><figcaption> Figure 1: mass-spring type accelerometer Flow.</figcaption></div></div>
 </figure>
 
 ## Classification of Sensor Response Orders

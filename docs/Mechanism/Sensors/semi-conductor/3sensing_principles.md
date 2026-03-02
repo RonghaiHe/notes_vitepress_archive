@@ -61,7 +61,7 @@ Confuse resolution, sensitivity, and responsivity? Let us clarify:
 
 <figure>
    <img src="/Robotics/Sensors/semi4_hyster.JPG" alt="Hysteresis" width="100%" align="center">
-   <figcaption> Figure 1: Example of Hysteresis.</figcaption>
+   <div align="center"><figcaption> Figure 1: Example of Hysteresis.</figcaption></div>
 </figure>
 
 
@@ -83,7 +83,7 @@ Mechanical stress ($\sigma$) and strain ($\varepsilon$) follow Hooke's Law: $\si
 
 <figure>
    <img src="/Robotics/Sensors/semi4_piezoresist.JPG" alt="piezoresist" width="100%" align="center">
-   <figcaption> Figure 2: Piezoresistive.</figcaption>
+   <div align="center"><figcaption> Figure 2: Piezoresistive.</figcaption></div>
 </figure>
 
 In a cantilever, stress is distributed around a neutral plane. One side of the plane undergoes tensile stress (positive strain), while the other undergoes compressive stress (negative strain).
@@ -92,17 +92,17 @@ Pedagogical Note on Placement: If we are designing a diaphragm-based pressure se
 
 <figure>
    <img src="/Robotics/Sensors/semi4_strain-stress.png" alt="strain-stress" width="100%" align="center">
-   <figcaption> Figure 3: Strain-stress relationship.</figcaption>
+   <div align="center"><figcaption> Figure 3: Strain-stress relationship.</figcaption></div>
 </figure>
 
 <figure>
    <img src="/Robotics/Sensors/semi4_strain-stress-materials.png" alt="strain-stress-materials" width="100%" align="center">
-   <figcaption> Figure 4: Strain-stress relationship for different materials.</figcaption>
+   <div align="center"><figcaption> Figure 4: Strain-stress relationship for different materials.</figcaption></div>
 </figure>
 
 <figure>
    <img src="/Robotics/Sensors/semi4_beam-stress.png" alt="beam deflection" width="100%" align="center">
-   <figcaption> Figure 6: Beam deflection.</figcaption>
+   <div align="center"><figcaption> Figure 6: Beam deflection.</figcaption></div>
 </figure>
 
 To calculate the **stress** and **strain**:
@@ -222,7 +222,7 @@ Should we use **capacitive** or **piezoresistive** principle to measure **displa
 ### Comparing piezoresistive and capacitive sensors
 <figure>
    <img src="/Robotics/Sensors/semi3_compare.JPG" alt="Compare" width="100%" align="center">
-   <figcaption> Figure 7: Force in beams.</figcaption>
+   <div align="center"><figcaption> Figure 7: Force in beams.</figcaption></div>
 </figure>
 
 - **Assume**: $\ell$: effective moment arm (the moment on the fixed end by $F$)

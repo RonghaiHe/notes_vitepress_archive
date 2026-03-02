@@ -59,7 +59,7 @@ Process Overview The cycle consists of three repeating stages:
 
 <figure>
    <img src="/Robotics/Sensors/semi6_lithography.JPG" alt="steps for lithography" width="100%" align="center">
-   <figcaption> Figure 1: Steps for UV lithography</figcaption>
+   <div align="center"><figcaption> Figure 1: Steps for UV lithography</figcaption></div>
 </figure>
 
 Deep-Dive ultra violet(UV) Lithography is the process used to transfer a pattern from a mask to the substrate. 
@@ -75,7 +75,7 @@ The process follows six technical steps:
 
 <figure>
    <img src="/Robotics/Sensors/semi6_photolithography.png" alt="photolithography" width="100%" align="center">
-   <figcaption> Figure 2: A schematic illustrating the optical path where a UV light source passes through reduction optics and a patterned mask. The optics focus the light onto the wafer surface, ensuring the pattern is "in focus" for precise transfer onto the photoresist.</figcaption>
+   <div align="center"><figcaption> Figure 2: A schematic illustrating the optical path where a UV light source passes through reduction optics and a patterned mask. The optics focus the light onto the wafer surface, ensuring the pattern is "in focus" for precise transfer onto the photoresist.</figcaption></div>
 </figure>
 
 Technical Limits The resolution (minimum width $w$) of a device is limited by the wavelength ($\lambda$) of the light source (used to make the image transfer from a mask to a target material), expressed by the formula:
@@ -169,7 +169,7 @@ Summary of Thermal Evaporation
 
 <figure>
    <img src="/Robotics/Sensors/semi5_e-beam.png" alt="e-beam" width="100%" align="center">
-   <figcaption> Figure 3: Schematics of E-Beam Evaporator.</figcaption>
+   <div align="center"><figcaption> Figure 3: Schematics of E-Beam Evaporator.</figcaption></div>
 </figure>
 
 Melting Temperatures  of various commonly used MEMS materials
@@ -195,7 +195,7 @@ A **momentum transfer** process * no chemical or composition change of material.
 
 <figure>
    <img src="/Robotics/Sensors/semi5_sputtering.JPG" alt="sputtering" width="100%" align="center">
-   <figcaption> Figure 4: Schematics of Sputtering.</figcaption>
+   <div align="center"><figcaption> Figure 4: Schematics of Sputtering.</figcaption></div>
 </figure>
 
 Sputtering "Yields":
@@ -241,7 +241,7 @@ Various types:
 
 <figure>
    <img src="/Robotics/Sensors/semi6_cvd.png" alt="cvd" width="100%" align="center">
-   <figcaption> Figure 5: Plasma-Enhanced CVD.</figcaption>
+   <div align="center"><figcaption> Figure 5: Plasma-Enhanced CVD.</figcaption></div>
 </figure>
 
 
@@ -276,7 +276,7 @@ Completely based on chemical reactions
 
 <figure>
    <img src="/Robotics/Sensors/semi6_wet.png" alt="wet" width="100%" align="center">
-   <figcaption> Figure 6: Wet Etching.</figcaption>
+   <div align="center"><figcaption> Figure 6: Wet Etching.</figcaption></div>
 </figure>
 
 * **Polysilicon Etch**

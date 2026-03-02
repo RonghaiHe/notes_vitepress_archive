@@ -45,7 +45,7 @@ The fabrication pipeline initiates with the production of a defect-free, high-pu
 
 <figure>
    <img src="/Robotics/Sensors/semi7_cz.png" alt="Czochralski" width="100%" align="center">
-   <figcaption> Figure 1: Czochralski process.</figcaption>
+   <div align="center"><figcaption> Figure 1: Czochralski process.</figcaption></div>
 </figure>
 
 The Czochralski process involves melting high-purity silicon in a quartz crucible within a graphite susceptor. A seed crystal is introduced to the melt and slowly withdrawn while rotating, allowing the silicon to crystallize into a continuous, single-crystal lattice (the boule).
@@ -74,7 +74,7 @@ Miller Indices (hkm): The coordinate system (hkm) defines the crystal planes bas
 
 <figure>
    <img src="/Robotics/Sensors/semi7_plane.png" alt="plane" width="100%" align="center">
-   <figcaption> Figure 2: The 3 principleal planes in silicon crystal.</figcaption>
+   <div align="center"><figcaption> Figure 2: The 3 principleal planes in silicon crystal.</figcaption></div>
 </figure>
 
 SCS has anisotropic properties: Electrical, Thermal, Mechanical, Chemical
@@ -93,7 +93,7 @@ The realization of 3D micro-geometry is a circular, iterative process. Most MEMS
 
 <figure>
    <img src="/Robotics/Sensors/semi7_fabrication.png" alt="fabrication" width="100%" align="center">
-   <figcaption> Figure 3: Process Diagram: Circular Fabrication Steps.</figcaption>
+   <div align="center"><figcaption> Figure 3: Process Diagram: Circular Fabrication Steps.</figcaption></div>
 </figure>
 
 1. Substrate Preparation: Layers of insulators ($\mathrm{SiO}_2, \mathrm{Si}_3\mathrm{N}_4$) are deposited on the $\mathrm{Si}$ substrate.

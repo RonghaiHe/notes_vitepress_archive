@@ -188,7 +188,7 @@ Full scale output (**FSO**) is the difference between ouput signals for maximum 
 
 <figure>
    <img src="/Robotics/Sensors/semi7_FSO.png" alt="FSO" width="100%" align="center">
-   <figcaption> Figure 1: FSO.</figcaption>
+   <div align="center"><figcaption> Figure 1: FSO.</figcaption></div>
 </figure>
 
 ### Hysteresis
@@ -196,7 +196,7 @@ This is a deviation of the sensor output, when it is approached from **different
 
 <figure>
    <img src="/Robotics/Sensors/semi7_hy.JPG" alt="Hysteresis" width="100%" align="center">
-   <figcaption> Figure 2: Hysteresis, where Delta is the max. difference at output for specified input.</figcaption>
+   <div align="center"><figcaption> Figure 2: Hysteresis, where Delta is the max. difference at output for specified input.</figcaption></div>
 </figure>
 
 ### Aliasing
@@ -204,7 +204,7 @@ Output signal due to sampling frequency of the sensing devices: **Aliasing** occ
 
 <figure>
    <img src="/Robotics/Sensors/semi7_aliasing.png" alt="Aliasing" width="100%" align="center">
-   <figcaption> Figure 3: Aliasing</figcaption>
+   <div align="center"><figcaption> Figure 3: Aliasing</figcaption></div>
 </figure>
 
 
@@ -217,7 +217,7 @@ Another method is based on the least squares procedure.
 
 <figure>
    <img src="/Robotics/Sensors/semi7_nonlinear.JPG" alt="Nonlinearity" width="100%" align="center">
-   <figcaption> Figure 4: Nonlinearity.</figcaption>
+   <div align="center"><figcaption> Figure 4: Nonlinearity.</figcaption></div>
 </figure>
 
 ### Repeatability
@@ -229,7 +229,7 @@ $$
 
 <figure>
    <img src="/Robotics/Sensors/semi7_repeat.JPG" alt="Repeatibility" width="100%" align="center">
-   <figcaption> Figure 5: Repeatability.</figcaption>
+   <div align="center"><figcaption> Figure 5: Repeatability.</figcaption></div>
 </figure>
 
 ### Resolution and Threshold
@@ -237,7 +237,7 @@ $$
 
 <figure>
    <img src="/Robotics/Sensors/semi7_resolution.JPG" alt="Resolution" width="100%" align="center">
-   <figcaption> Figure 6: Resolution and threshold.</figcaption>
+   <div align="center"><figcaption> Figure 6: Resolution and threshold.</figcaption></div>
 </figure>
 
 ### Calibration Error
@@ -255,7 +255,7 @@ $$
 
 <figure>
    <img src="/Robotics/Sensors/semi7_calibration.png" alt="Calibration" width="100%" align="center">
-   <figcaption> Figure 7: Calibration error.</figcaption>
+   <div align="center"><figcaption> Figure 7: Calibration error.</figcaption></div>
 </figure>
 
 ## Noise
@@ -318,7 +318,7 @@ rate, averaging window, and settling time.
 
 <figure>
    <img src="/Robotics/Sensors/semi7_handwriting.png" alt="Overall" width="100%" align="center">
-   <figcaption> Figure 8: Overall system noise.</figcaption>
+   <div align="center"><figcaption> Figure 8: Overall system noise.</figcaption></div>
 </figure>
 
 ### Error Sources: Thermal Noise
@@ -452,7 +452,7 @@ Example of Application: Atomic Force Microscope (AFM)
 
 <figure>
    <img src="/Robotics/Sensors/semi7_flow.JPG" alt="flow" width="100%" align="center">
-   <figcaption> Figure 9: Input-to-Output Signal Flow.</figcaption>
+   <div align="center"><figcaption> Figure 9: Input-to-Output Signal Flow.</figcaption></div>
 </figure>
 
 - Error 1: from the beam structure geometric design and thermal noise
