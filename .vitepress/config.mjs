@@ -76,12 +76,16 @@ export default defineConfig({
               { text: 'Bulk Micromachining', link: '/docs/Mechanism/Sensors/semi-conductor/6bulk_micromachining'},
               { text: 'Dynamic Response', link: '/docs/Mechanism/Sensors/semi-conductor/8dynamic'},
               { text: 'Mechanical Vibration', link: '/docs/Mechanism/Sensors/semi-conductor/9vibration'},
+              { text: 'AI-Enabled Sensors', link: '/docs/Mechanism/Sensors/semi-conductor/14ai+sensors'},
             ]
         },
         {
           text: 'Robotics',
             items: [
               { text: 'Intro', link: '/docs/Mechanism/Sensors/robotics/1intro'},
+              { text: 'Sensor Integration and Signal processing I', link: '/docs/Mechanism/Sensors/robotics/10SISP1'},
+              { text: 'Sensor Integration and Signal processing II', link: '/docs/Mechanism/Sensors/robotics/11SISP2'},
+              { text: 'Sensors for Robotics and Control Systems', link: '/docs/Mechanism/Sensors/robotics/12Sensors'},
             ]
         }
       ],
