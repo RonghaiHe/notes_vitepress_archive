@@ -29,12 +29,12 @@ Two-phase flow is composed of two immiscible mediums.
 ||Annular flow|<img src="/fluid_tf7_2_table2.png" alt="table of two-phase flow2" width="100%" align="center">|Liquid core and gas film; Gas core and liquid film|Film boiling; Boilers|
 ||Jet flow|<img src="/fluid_tf7_2_table3.png" alt="table of two-phase flow3" width="100%" align="center">|Liquid jet in gas; Gas jet in liquid|Atomization; Jet condenser|
 |Mix or Transactional flows|Cap, Slug or Churn-turbulent flow|<img src="/fluid_tf7_3_table1.png" alt="table2 of two-phase flow1" width="100%" align="center">|Gas pocket in liquid|Sodium boiling in forced convection|
-|Mix or Transactional flows|Bubbly annular flow|<img src="/fluid_tf7_3_table2.png" alt="table2 of two-phase flow2" width="100%" align="center">|Gas bubbles in liquid film with gas core|Evaporators with wall nucleation|
-|Mix or Transactional flows|Droplet annular flow|<img src="/fluid_tf7_3_table3.png" alt="table2 of two-phase flow3" width="100%" align="center">|Gas core with droplets and liquid film|Steam generator|
-|Mix or Transactional flows|Bubbly droplet annular flow|<img src="/fluid_tf7_3_table4.png" alt="table2 of two-phase flow4" width="100%" align="center">|Gas core with droplets and liquid film with gas bubbles|Boiling nuclear reactor channel|
+||Bubbly annular flow|<img src="/fluid_tf7_3_table2.png" alt="table2 of two-phase flow2" width="100%" align="center">|Gas bubbles in liquid film with gas core|Evaporators with wall nucleation|
+||Droplet annular flow|<img src="/fluid_tf7_3_table3.png" alt="table2 of two-phase flow3" width="100%" align="center">|Gas core with droplets and liquid film|Steam generator|
+||Bubbly droplet annular flow|<img src="/fluid_tf7_3_table4.png" alt="table2 of two-phase flow4" width="100%" align="center">|Gas core with droplets and liquid film with gas bubbles|Boiling nuclear reactor channel|
 |Dispersed flows|Bubbly flow|<img src="/fluid_tf7_4_table1.png" alt="table3 of two-phase flow1" width="100%" align="center">|Gas bubbles in liquid|Chemical reactors|
-|Dispersed flows|Droplet flow|<img src="/fluid_tf7_4_table2.png" alt="table3 of two-phase flow2" width="100%" align="center">|Liquid droplets in gas|Spray cooling|
-|Dispersed flows|Particulate flow|<img src="/fluid_tf7_4_table3.png" alt="table3 of two-phase flow3" width="100%" align="center">|Solid particles in gas or liquid|Transportaion of powder|
+||Droplet flow|<img src="/fluid_tf7_4_table2.png" alt="table3 of two-phase flow2" width="100%" align="center">|Liquid droplets in gas|Spray cooling|
+||Particulate flow|<img src="/fluid_tf7_4_table3.png" alt="table3 of two-phase flow3" width="100%" align="center">|Solid particles in gas or liquid|Transportaion of powder|
 
 <img src="/fluid_tf7_0_regime.png" alt="flow regime" width="100%" align="center">
 
@@ -413,14 +413,14 @@ $$
 where (single phase)
 $$
 \left(-\frac{\Delta p}{\Delta z}\right)_{1\phi, \mathrm{fric},f}=\lambda \frac{1}{D} \frac{\rho_f j_f^2}{2},\quad \lambda=\left\{\begin{array}{ll}
-64 / R e_f &\text { for laminar flow } \\
-0.316 / R e_f^{0.25} &\text { for turbulent flow }
+64 / \mathrm{Re}_f &\text { for laminar flow } \\
+0.316 / \mathrm{Re}_f^{0.25} &\text { for turbulent flow }
 \end{array}\right.
 $$
 
 and $\lambda$ is Dancy friction factor; and Reynolds number:
 $$
-R e_f \equiv \frac{\rho_f j_f D}{\mu_f}
+\mathrm{Re}_f \equiv \frac{\rho_f j_f D}{\mu_f}
 $$
 
 For **Two-phase multiplier**, here's the Chiskolm equation:
@@ -432,6 +432,8 @@ and
 $$
 X \equiv \sqrt{\frac{\left(-\frac{\Delta p}{\Delta z}\right)_{1\phi, \mathrm{fric},f}}{\left(-\frac{\Delta p}{\Delta z}\right)_{1\phi, \mathrm{fric},g}}} \quad \text{is Martinelli parameter}
 $$
+
+[Final-term]
 
 <img src="/fluid_tf7_11_pressure_drop.png" alt="pressure drop for cylinder" width="100%" align="center">
 
@@ -450,7 +452,7 @@ $$
 |Laminar|Laminar|5|
 
 $$
-Re_k
+\mathrm{Re}_k
 \begin{cases}
   < 1000, & \text{Laminar}\\  
   \ge 2000, & \text{Turbulent}\\  

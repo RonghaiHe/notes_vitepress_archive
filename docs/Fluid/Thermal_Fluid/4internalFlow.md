@@ -138,7 +138,7 @@ Open-channel flow
 2300
 :::
 
-::: details **Quiz**: $\operatorname{Re}_D = \frac{\rho u_mD}{\mu}; \quad \operatorname{Re}_D = \frac{u_mD}{v}, v=\frac{\mu}{\rho}; \quad \operatorname{Re}_D = \frac{4\dot{m}}{\pi D\mu}$, which are correct for pipe flow
+::: details **Quiz**: $\operatorname{Re}_D = \frac{\rho u_mD}{\mu}; \quad \operatorname{Re}_D = \frac{u_mD}{\nu}, \nu=\frac{\mu}{\rho}; \quad \operatorname{Re}_D = \frac{4\dot{m}}{\pi D\mu}$, which are correct for pipe flow
 ALL
 :::
 
@@ -228,7 +228,7 @@ The friction factor f relations are given in Table below for **fully developed l
 The Reynolds number for flow in these pipes is based on the hydraulic diameter $D_H=4A_c/p$, where $A_c$ is the crosssectional area of the pipe and $p$ is its wetted perimeter
 
 ::: details **Quiz**: For the fully developed laminar flow, we have
-$$f = \frac{32}{\operatorname{Re}}$$
+$$f = \frac{64}{\operatorname{Re}}$$
 :::
 
 ::: details **Quiz**: A pressure drop due to () represents an **irreversible pressure loss**, and it is called pressure loss.

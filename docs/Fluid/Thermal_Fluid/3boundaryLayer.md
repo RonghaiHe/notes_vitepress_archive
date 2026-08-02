@@ -241,7 +241,7 @@ From given data (for standard air, $\boldsymbol{\nu}=1.46 \times 10^{-5} \mathrm
 $$
 \begin{aligned}
 & \frac{\omega D}{2 V}=\frac{1}{2} \times 7500 \frac{\mathrm{rev}}{\mathrm{~min}} \times 0.064 \mathrm{~m} \times \frac{\mathrm{s}}{25 \mathrm{~m}} \times 2 \pi \frac{\mathrm{rad}}{\mathrm{rev}} \times \frac{\mathrm{min}}{60 \mathrm{~s}}=1.01 \\
-& R e_D=\frac{V D}{\nu}=25 \frac{\mathrm{~m}}{\mathrm{~s}} \times 0.064 \mathrm{~m} \times \frac{\mathrm{s}}{1.46 \times 10^{-5} \mathrm{~m}^2}=1.10 \times 10^5
+& \mathrm{Re}_D=\frac{V D}{\nu}=25 \frac{\mathrm{~m}}{\mathrm{~s}} \times 0.064 \mathrm{~m} \times \frac{\mathrm{s}}{1.46 \times 10^{-5} \mathrm{~m}^2}=1.10 \times 10^5
 \end{aligned}
 $$
 

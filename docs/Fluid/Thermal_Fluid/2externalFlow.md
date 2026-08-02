@@ -115,11 +115,11 @@ Drag and Reynolds number(**Core**):
 True
 :::
 
-::: details **Quiz**: For **high Reynolds number** flow over common geometries
+::: details **Quiz**: For **high Reynolds number** flow over common geometries, the relation between the **drag coefficient** and the **Reynolds number** ...
 The **drag coefficient** is a constant that does not depend on the Reynolds number
 :::
 
-::: details **Quiz**: For **high Reynolds number** over common geometries
+::: details **Quiz**: For **high Reynolds number** over common geometries, the relation between the **drag force** and the **flow velocity** ...
 The **drag force** is proportional to the flow velocity squared, i.e. $V^2$
 :::
 
@@ -197,7 +197,7 @@ False
 True
 :::
 
-::: details **Quiz**[core]: For a car moving on a flat road at high speed (60mph) the **power** developed by the engine to overcome aerodynamic drag is
+::: details **Quiz**[core]: For a car moving on a flat road at high speed (60mph) the *power* developed by the engine to overcome aerodynamic drag is (relation with vehicle speed)
 Proportional the vehicle speed cubed, ie. $V^3$ [$\mathrm{Power}\propto FV\propto V^3$]
 :::
 
@@ -231,12 +231,12 @@ Assume the car is driven $18,000 \mathrm{~km}$ a year at an average **speed** of
     \end{gather*}
   $$
 
-3. The amount of the cost of the fuel that supplies this much energy are:
+3. The amount of the cost of the fuel that supplies this much energy are ($\mathrm{HV}:$ Heat Value of gasoline):
   $$
     \begin{gather*}
     \begin{aligned}
-      \text{Amount of fuel} &= \frac{m_{\mathrm{fuel}}}{\rho_{\mathrm{fuel}}} = \frac{E_{\mathrm{~in}}/HV}{\rho_{\mathrm{fuel}}} \\
-      &= \frac{(2.364\times 10^7 \mathrm{~kJ/year})(44,000\mathrm{~kJ/year})}{0.74 \mathrm{~kg/L}} = 726 \mathrm{L/year}
+      \text{Amount of fuel} &= \frac{m_{\mathrm{fuel}}}{\rho_{\mathrm{fuel}}} = \frac{E_{\mathrm{~in}}/\mathrm{HV}}{\rho_{\mathrm{fuel}}} \\
+      &= \frac{(2.364\times 10^7 \mathrm{~kJ/year})/(44,000\mathrm{~kJ/year})}{0.74 \mathrm{~kg/L}} = 726 \mathrm{L/year}
     \end{aligned}. \\
     \begin{aligned}
       \text{Cost} &= \text{(Amount of fuel)(Unit cost)} \\

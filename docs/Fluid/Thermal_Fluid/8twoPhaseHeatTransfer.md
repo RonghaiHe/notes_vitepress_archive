@@ -8,7 +8,7 @@ Specific volume = density$^{-1}$
 
 <img src="/fluid_tf8_0_temperature-volume.png" alt="Temperature-volume relation" width="100%" align="center">
 
-### Clausius-Clapeyron relation
+### Clausius-Clapeyron relation [final-term]
 **Mechanical equilibrium**:
 $$
 (p_b - p_l)\pi r^{*2} = \sigma 2\pi r^* \text{ or } \Delta p = p_b - p_l = \frac{2\sigma}{r^*}

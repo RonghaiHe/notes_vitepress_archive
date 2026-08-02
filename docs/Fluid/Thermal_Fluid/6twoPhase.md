@@ -136,9 +136,11 @@ $$
 ### Dimensional analysis and similitude
 Conservation Eqs., Momentum Eqs.:
 $$
-  \frac{\partial u}{\partial x} + \frac{\partial u}{\partial y} = 0\\
-  \rho\left(u \frac{\partial u}{\partial x}+v \frac{\partial u}{\partial y}\right)=-\frac{\partial p}{\partial x}+\mu\left(\frac{\partial^2 u}{\partial x^2}+\frac{\partial^2 u}{\partial y^2}\right)\\
-  \rho\left(u \frac{\partial v}{\partial x}+v \frac{\partial v}{\partial y}\right)=-\rho g-\frac{\partial p}{\partial y}+\mu\left(\frac{\partial^2 v}{\partial x^2}+\frac{\partial^2 v}{\partial y^2}\right)
+  \begin{gathered}
+    \frac{\partial u}{\partial x} + \frac{\partial u}{\partial y} = 0\\
+     \rho\left(u \frac{\partial u}{\partial x}+v \frac{\partial u}{\partial y}\right)=-\frac{\partial p}{\partial x}+\mu\left(\frac{\partial^2 u}{\partial x^2}+\frac{\partial^2 u}{\partial y^2}\right)\\
+     \rho\left(u \frac{\partial v}{\partial x}+v \frac{\partial v}{\partial y}\right)=-\rho g-\frac{\partial p}{\partial y}+\mu\left(\frac{\partial^2 v}{\partial x^2}+\frac{\partial^2 v}{\partial y^2}\right)
+  \end{gathered}
 $$
 
 If using dimensionless variables:
@@ -148,9 +150,11 @@ $$
 
 Then
 $$
-  \frac{\partial u^*}{\partial x^*} + \frac{\partial u^*}{\partial y^*} = 0\\
-  u^* \frac{\partial u^*}{\partial x^*}+v^* \frac{\partial u^*}{\partial y^*}=-\frac{\partial p^*}{\partial x^*}+\frac{\mu}{\rho V_{\infty} L}\left(\frac{\partial^2 u^*}{\partial x^{* 2}}+\frac{\partial^2 u^*}{\partial y^{* 2}}\right)\\
-  u^* \frac{\partial v^*}{\partial x^*}+v^* \frac{\partial v^*}{\partial y^*}=-\frac{g L}{V_{\infty}^2}-\frac{\partial p^*}{\partial y^*}+\frac{\mu}{\rho V_{\infty} L}\left(\frac{\partial^2 v^*}{\partial x^{* 2}}+\frac{\partial^2 v^*}{\partial y^{* 2}}\right)
+  \begin{gathered}
+    \frac{\partial u^*}{\partial x^*} + \frac{\partial u^*}{\partial y^*} = 0\\
+     u^* \frac{\partial u^*}{\partial x^*}+v^* \frac{\partial u^*}{\partial y^*}=-\frac{\partial p^*}{\partial x^*}+\frac{\mu}{\rho V_{\infty} L}\left(\frac{\partial^2 u^*}{\partial x^{* 2}}+\frac{\partial^2 u^*}{\partial y^{* 2}}\right)\\
+     u^* \frac{\partial v^*}{\partial x^*}+v^* \frac{\partial v^*}{\partial y^*}=-\frac{g L}{V_{\infty}^2}-\frac{\partial p^*}{\partial y^*}+\frac{\mu}{\rho V_{\infty} L}\left(\frac{\partial^2 v^*}{\partial x^{* 2}}+\frac{\partial^2 v^*}{\partial y^{* 2}}\right)    
+  \end{gathered}
 $$
 
 Usual dimensionless number for **heat transfer**:
@@ -168,14 +172,14 @@ Usual dimensionless number for **heat transfer**:
 Usual dimensionless number for **fluid mechanics**:
 | Dimensionless Number in Fluid Mechanics | Value |
 | :--- | :--- |
-| Reynolds number (inertia to viscous): | $R e=\frac{\rho V L}{\mu}=\frac{V L}{\mathrm{v}}$ |
-| Prandtl number (Kimematic viscosity to thermal diffusivity) | $Pr = \frac{\nu}{\alpha}$ |
-| Euler number (pressure to inertia): | $E u=\frac{\Delta p}{\frac{1}{2} \rho V^2}$ |
+| Reynolds number (inertia to viscous): | $\mathrm{Re}=\frac{\rho V L}{\mu}=\frac{V L}{\mathrm{v}}$ |
+| Prandtl number (Kimematic viscosity to thermal diffusivity) | $\mathrm{Pr} = \frac{\nu}{\alpha}$ |
+| Euler number (pressure to inertia): | $\mathrm{Eu}=\frac{\Delta p}{\frac{1}{2} \rho V^2}$ |
 | Drag coefficient | $C_D=\frac{F_D}{\frac{1}{2} \rho V^2 L^2}$ |
 | Lift coefficient | $C_L=\frac{F_L}{\frac{1}{2} \rho V^2 L^2}$ |
-| Cavitation number: | $C a=\frac{p-p_v}{\frac{1}{2} \rho V^2}$ |
-| Froude number (inertia to gravity): | $F r=\frac{V}{\sqrt{g L}}$ |
-| Weber number (inertia to surface tension): | $W e=\frac{\rho V^2 L}{\sigma}$ |
+| Cavitation number: | $\mathrm{Ca}=\frac{p-p_v}{\frac{1}{2} \rho V^2}$ |
+| Froude number (inertia to gravity): | $\mathrm{Fr}=\frac{V}{\sqrt{g L}}$ |
+| Weber number (inertia to surface tension): | $\mathrm{We}=\frac{\rho V^2 L}{\sigma}$ |
 | Mach number (inertia to compressibility): | $M=\frac{V}{c}$ |
 | Centrifugal pump specific speed (in terms of head $h$ ): | $N_s=\frac{\omega Q^{1 / 2}}{h^{3 / 4}}$ |
 | Centrifugal pump specific speed (in terms of head $H$ ): | $N_{s_{c u}}=\frac{\omega Q^{1 / 2}}{H^{3 / 4}}$ |
@@ -356,12 +360,12 @@ $$
 is a Kinetic Energy Coefficient. Then the **Major Losses**: Friction Factor
 - In Laminar Flow
 $$
-h_l=32 \frac{L}{D} \frac{\mu \bar{V}}{\rho D}=\frac{L}{D} \frac{\bar{V}^2}{2}\left(64 \frac{\mu}{\rho \bar{V} D}\right)=\left(\frac{64}{R e}\right) \frac{L}{D} \frac{\bar{V}^2}{2}
+h_l=32 \frac{L}{D} \frac{\mu \bar{V}}{\rho D}=\frac{L}{D} \frac{\bar{V}^2}{2}\left(64 \frac{\mu}{\rho \bar{V} D}\right)=\left(\frac{64}{\mathrm{Re}}\right) \frac{L}{D} \frac{\bar{V}^2}{2}
 $$
 
 - Turbulent Flow
 $$
-\frac{h_l}{\frac{1}{2} \bar{V}^2}=\frac{L}{D} \rho_2\left(R e, \frac{e}{D}\right) \quad f \equiv \rho_2\left(R e, \frac{e}{D}\right)
+\frac{h_l}{\frac{1}{2} \bar{V}^2}=\frac{L}{D} \rho_2\left(\mathrm{Re}, \frac{e}{D}\right) \quad f \equiv \rho_2\left(\mathrm{Re}, \frac{e}{D}\right)
 $$
 
 where $\rho_2$ is Undetermined function
@@ -373,7 +377,7 @@ $$
 
 where
 $$
-f_{\text {laminar }}=\frac{64}{R e}
+f_{\text {laminar }}=\frac{64}{\mathrm{Re}}
 $$
 
 And Colebrook
@@ -381,7 +385,7 @@ $$
 \frac{1}{\sqrt{f}}=-2.0 \log \left(\frac{e / D}{3.7}+\frac{2.51}{\operatorname{Re} \sqrt{f}}\right)
 $$
 $$
-f=\frac{0.316}{R e^{0.25}} \quad R e \leq 10^5: \quad f=\frac{0.184}{R e^{0.2}} \cdot R e>10^5
+f=\frac{0.316}{\mathrm{Re}^{0.25}} \quad \mathrm{Re} \leqslant 10^5: \quad f=\frac{0.184}{\mathrm{Re}^{0.2}} \cdot \mathrm{Re}>10^5
 $$
 
 Minor Losses:
@@ -616,7 +620,7 @@ $$
 $$
 
 where $A$ is the flow channel area, $A_g$ is the gas flow area.
-> $$v_g \ge j_g$$
+> $$v_g \geqslant j_g$$
 
 <img src="/fluid_tf6_8_phase_velocity.png" alt="phase velocity" width="100%" align="center">
 
@@ -733,7 +737,7 @@ $$j_k[\mathrm{~m} / \mathrm{s}]=\frac{\text { Volume flow rate }}{\text { Channe
 
 - Reynolds number 
 $$
-R e=\frac{\text{Inertia force}}{\text{Viscous force}} = \frac{\rho_f v_f D}{\mu_f}
+\mathrm{Re}=\frac{\text{Inertia force}}{\text{Viscous force}} = \frac{\rho_f v_f D}{\mu_f}
 $$
 
 - Bubble Reynolds number

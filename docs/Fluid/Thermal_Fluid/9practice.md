@@ -126,7 +126,7 @@ $$
 
 $$
 \begin{aligned}
-  &\langle j\rangle = \langle j_g\rangle + \langle j_f\rangle= \frac{G\langle x\rangle}{\rho_g}  + \frac{G(1-\langle x\rangle)}{\rho_f} \\
+  &\langle j\rangle = \langle j_g\rangle + \langle j_f\rangle= \frac{G\langle x\rangle}{\rho_g}  + \frac{G(1-\langle x\rangle)}{\rho_f} = \frac{1}{C_0}\left[\frac{\langle j_g\rangle}{\langle\alpha\rangle} - \langle\langle v_{gj}\rangle\rangle\right]\\
   \implies& \langle x\rangle = \frac{\frac{C_0}{\rho_f} + \frac{\langle\langle v_{gj}\rangle\rangle}{G}}{\frac{1}{\langle \alpha\rangle\rho_g} - \frac{C_0}{\rho_g} + \frac{C_0}{\rho_f}}  
 \end{aligned}
 $$
